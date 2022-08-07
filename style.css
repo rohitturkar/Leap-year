@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans:wght@300;400&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    margin:0px;
+
+}
+
+:root {
+    /* --primary-color: #3b82f6; */
+    /* --primary-color: rgb(84, 80, 171); */
+    --primary-color:#287b83;
+    --dark-grey: #6b7280;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.navigation h2{
+    font-weight: bold;
+    font-size:1.5rem;
+    text-align: center;
+}
+
+
+main{
+margin:2rem auto;
+padding:1rem;
+max-width:430px;
+}
+
+main h3{
+    text-align: center;    
+}
+
+
+textarea{
+    display: block;
+    width:70%;
+    margin:1rem auto;
+    padding:2rem;
+    font-size: 1.2rem;
+    
+}
+
+#btn-execute{
+    display:inline-block;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    border:2px solid var(--primary-color);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#btn-clear{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    border:2px solid var(--primary-color);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#output{
+    border:2px solid var(--dark-grey);
+    width:70%;
+    margin:1rem auto;
+    padding:2rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+#div-space{
+margin-bottom: 5rem;
+}
+
+
+footer{
+    background-color:var(--primary-color);
+    padding:1rem;
+    text-align:center;
+    color:white;
+    margin-top:1rem;
+}
